@@ -1,7 +1,7 @@
 # Назначение
 
-Форк оригинального проекта для сборки dat-файлов IP для проектов V2Fly, XRay и подобных на основе списков [Antifilter](https://antifilter.download/)
-Сборка проводится автоматически еженедельно через GitHub Actions
+Форк форка оригинального проекта для сборки dat-файлов IP для проектов V2Fly, XRay и подобных на основе списков [Antifilter](https://antifilter.download/)
+Сборка проводится автоматически еженедельно через GitHub Actions. Добавил IP адреса для Discord
 
 ## Использованные списки
 - Файл ```geoip.dat``` собирается на основе списка <https://antifilter.download/list/allyouneed.lst>
