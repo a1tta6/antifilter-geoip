@@ -21,6 +21,15 @@
     {
       "type": "private",
       "action": "add"
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "discord-list",
+        "uri": "https://raw.githubusercontent.com/a1tta6/Discord_ips/refs/heads/main/Discord_IPs.lst",
+        "onlyIPType": "ipv4"
+      }
     }
   ],
   "output": [
@@ -29,7 +38,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["antifilter", "antifilter-community", "private"]
+        "wantedList": ["antifilter", "antifilter-community", "private", "discord-list"]
       }
     }
   ]
