@@ -35,6 +35,7 @@
       "type": "text",
       "action": "remove",
       "args": {
+        "name": "ignore-list",
         "uri": "https://raw.githubusercontent.com/a1tta6/ignore_ip_list/refs/heads/main/ignore.lst",
         "onlyIPType": "ipv4"
       }
