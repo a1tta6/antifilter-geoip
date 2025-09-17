@@ -30,6 +30,14 @@
         "uri": "https://raw.githubusercontent.com/a1tta6/Discord_ips/refs/heads/main/Discord_IPs.lst",
         "onlyIPType": "ipv4"
       }
+    },
+    {
+      "type": "text",
+      "action": "remove",
+      "args": {
+        "uri": "https://raw.githubusercontent.com/a1tta6/ignore_ip_list/refs/heads/main/ignore.lst",
+        "onlyIPType": "ipv4"
+      }
     }
   ],
   "output": [
